@@ -1,3 +1,35 @@
 * {
-	background-color: beige;
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	height: 100%;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+
+.imgs {
+	display: flex;
+	width: 90vw;
+}
+
+.imgs>div {
+	position: relative;
+	cursor: pointer;
+	flex: 0.5;
+	height: 80vh;
+	margin: 10px;
+	transition: all 0.7s ease-in;
+	opacity: 40%;
+	overflow: hidden;
+}
+
+.imgs>div.active {
+	flex: 5;
+	opacity: 1;
 }
