@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-	let header = document.querySelector("h1");
+	let header = document.querySelector("header>h1");
 	let body = document.querySelector("body");
 	let start = Date.now();
 
@@ -7,6 +7,7 @@ window.addEventListener("load", () => {
 		let current = Date.now();
 		console.log(current - start);
 		start = current;
+		header.innerText = "You clicked me!!!";
 	});
 
 	let imgs = document.querySelectorAll(".imgs>div");
