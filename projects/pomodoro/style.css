@@ -1,0 +1,55 @@
+body {
+	background-color: #ba4949;
+	margin: 0;
+	padding: 0;
+}
+
+.flex {
+	display: flex;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+/* TIMER */
+
+.timer {
+	margin: 0 auto;
+	width: 60%;
+}
+
+.timer>div {
+	justify-content: center;
+	border: 1px solid blue;
+}
+
+.timer>div:last-child {
+	padding: 10px;
+	justify-content: space-between;
+}
+
+/* TASKS */
+
+main>div:last-child {
+	border: 1px solid blue;
+	margin: 0 auto;
+	width: 60%;
+}
+
+main>div:last-child>div:first-child {
+	background-color: beige;
+}
+
+.task {
+	background-color: blue;
+	justify-content: space-between;
+	margin-top: 5px;
+	padding: 10px;
+	border-radius: 10px;
+}
